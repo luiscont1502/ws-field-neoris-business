@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.neoris</groupId>
-        <artifactId>ws-field-neoris-business</artifactId>
+        <groupId>com.test</groupId>
+        <artifactId>ws-field-test-business</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ws-field-neoris-service</artifactId>
+    <artifactId>ws-field-test-service</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -66,8 +66,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.neoris</groupId>
-            <artifactId>ws-field-neoris-persistence-postgres</artifactId>
+            <groupId>com.test</groupId>
+            <artifactId>ws-field-test-persistence-postgres</artifactId>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -95,7 +95,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.neoris.business.WsFieldNeorisBusinessApplication</mainClass>
+                    <mainClass>com.test.business.WsFieldTestBusinessApplication</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>

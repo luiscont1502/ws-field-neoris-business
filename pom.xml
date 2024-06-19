@@ -8,15 +8,15 @@
 		<version>3.2.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.neoris</groupId>
-	<artifactId>ws-field-neoris-business</artifactId>
+	<groupId>com.test</groupId>
+	<artifactId>ws-field-test-business</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>ws-field-neoris-business</name>
+	<name>ws-field-test-business</name>
 	<description>Microservicios de user</description>
 	<modules>
-		<module>ws-field-neoris-persistence-postgres</module>
-		<module>ws-field-neoris-service</module>
+		<module>ws-field-test-persistence-postgres</module>
+		<module>ws-field-test-service</module>
 	</modules>
 	<properties>
 		<java.version>17</java.version>
@@ -30,13 +30,13 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.neoris</groupId>
-			<artifactId>ws-field-neoris-persistence-postgres</artifactId>
+			<groupId>com.test</groupId>
+			<artifactId>ws-field-test-persistence-postgres</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neoris</groupId>
-			<artifactId>ws-field-neoris-service</artifactId>
+			<groupId>com.test</groupId>
+			<artifactId>ws-field-test-service</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator -->
